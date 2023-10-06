@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="input">
+            <p id="showInput"></p>
+        </div>
+        <div id="buttons">
+            <button class="numberbtn" onClick="display(7)">7</button>
+            <button class="numberbtn" onClick="display(8)">8</button>
+            <button class="numberbtn" onClick="display(9)">9</button>
+            <button class="addbtn" onClick="display('+')">+</button>
+            <button class="numberbtn" onClick="display(4)">4</button>
+            <button class="numberbtn" onClick="display(5)">5</button>
+            <button class="numberbtn" onClick="display(6)">6</button>
+            <button class="subtractbtn" onClick="display('-')">-</button>
+            <button class="numberbtn" onClick="display(1)">1</button>
+            <button class="numberbtn" onClick="display(2)">2</button>
+            <button class="numberbtn" onClick="display(3)">3</button>
+            <button class="multiplybtn" onClick="display('x')">x</button>
+            <button class="deletebtn" onclick="clearInput()">C</button>
+            <button class="numberbtn" onClick="display(0)">0</button>
+            <button class="equalbtn" onClick="calculate()">=</button>
+            <button class="dividebtn" onClick="display('/')">/</button>
+        </div>
+    </div>
+
+    <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
